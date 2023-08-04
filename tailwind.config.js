@@ -16,6 +16,10 @@ module.exports = {
         screens:{
           '2xl': '1320px'
         }
+      },
+      backgroundImage:{
+        'hero': "url('/dist/img/front-bg.jpeg')",
+        'linier':"linear-gradient(rgba(11, 0, 0, 0.405)"
       }
   },
   plugins: [],
