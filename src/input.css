@@ -9,16 +9,12 @@ html{
 body{
     font-family: 'Inter', sans-serif;
 }
-/* .header{
+/* .bg-hero{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(11, 0, 0, 0.405), rgba(1, 5, 21, 0.444)),
-      url(../dist/img/front-bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    background-image: linear-gradient(rgba(11, 0, 0, 0.405), rgba(1, 5, 21, 0.444))
+
 } */
 .navbar-fixed{
     @apply fixed z-[9999] bg-dark bg-opacity-80;

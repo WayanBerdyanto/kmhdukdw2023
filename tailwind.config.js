@@ -18,9 +18,8 @@ module.exports = {
         }
       },
       backgroundImage:{
-        'hero': "url('/dist/img/front-bg.jpeg')",
-        'linier':"linear-gradient(rgba(11, 0, 0, 0.405)"
-      }
+        'hero': "url('/dist/img/front-bg.jpeg')"
+      },
   },
   plugins: [],
 }

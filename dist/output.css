@@ -670,6 +670,18 @@ video {
   height: 100vh;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -956,16 +968,12 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
-/* .header{
+/* .bg-hero{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(11, 0, 0, 0.405), rgba(1, 5, 21, 0.444)),
-      url(../dist/img/front-bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    background-image: linear-gradient(rgba(11, 0, 0, 0.405), rgba(1, 5, 21, 0.444))
+
 } */
 
 .navbar-fixed {
@@ -1105,6 +1113,11 @@ body{
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .lg\:shadow-none {
