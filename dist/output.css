@@ -670,18 +670,6 @@ video {
   height: 100vh;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
